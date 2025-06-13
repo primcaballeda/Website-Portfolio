@@ -10,7 +10,7 @@ import VittleVault from "../assets/vittlevault.png"
 import Transpove from "../assets/transpove.png"
 import RentS from "../assets/rents.png"
 import ToDoList from "../assets/todolist.png"
-import FitApp from "../assets/fitapp.jpg"
+import FitApp from "../assets/FitApp.jpg"
 import OmniFlux from "../assets/Omniflux.png"
 
 const projects = [
