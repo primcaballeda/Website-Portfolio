@@ -174,7 +174,7 @@ const Projects = () => {
 
 									<div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 										<a
-											href="https://your-link.com"
+											href=""
 											className="bg-white text-black px-4 py-2 rounded-md flex items-center"
 											target="_blank"
 											rel="noopener noreferrer"
