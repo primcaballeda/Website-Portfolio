@@ -14,87 +14,86 @@ import FitApp from "../assets/FitApp.jpg"
 import OmniFlux from "../assets/Omniflux.png"
 
 const projects = [
-  {
-    id: 1,
-    title: "Readify: A Book Review App",
-    description:
-      "An app where users can review books, leave ratings, and favorite titles. It showcases integration with Firebase and demonstrates good use of asynchronous data fetching in Flutter. The app also features user authentication and a responsive UI for both Android and iOS.",
-    image: Readify,
-    tags: ["Dart", "Flutter", "Firebase"],
-    github: "https://github.com/primcaballeda/readify",
-    category: "Mobile App",
-  },
-  {
-    id: 2,
-    title: "Fitness Tracking App",
-    description:
-      "A mobile fitness app that supports personalized workout plans, weight tracking, and progress monitoring. Backend is handled by a Flask API with MySQL (XAMPP). Users can log daily activities, set fitness goals, and visualize progress through interactive charts.",
-    image: FitApp,
-    tags: ["Python", "ReactNative", "MYSQL (via XAMPP)"],
-    github: "https://github.com/primcaballeda/FitApp",
-    category: "Mobile App",
-  },
-  {
-    id: 3,
-    title: "Rent.S - A Rental Management System",
-    description:
-      "A CRUD (Create, Read, Update, and Delete) system built to help property managers or landlords manage tenants, units, and rental payments. The system includes automated reminders for due payments and a dashboard for analytics.",
-    image: RentS,
-    tags: ["TypeScript", "Supabase"],
-    github: "https://github.com/primcaballeda/Rent.S",
-    category: "Web App",
-  },
-  {
-    id: 4,
-    title: "Pokedex",
-    description:
-      "A simple Pokedex app that fetches data from the PokeAPI and displays information about various Pokémon. It demonstrates API integration and basic UI design using JavaScript and CSS.",
-    image: Pokedex,
-    tags: ["JavaScript", "API Integration", "CSS"],
-    github: "https://github.com/primcaballeda/pokedex-prim",
-    category: "Web App",
-  },
-  {
-    id: "5",
-    title: "To-Do List App",
-    description:
-      "A Basic To-Do List App where users can add, edit, and delete tasks. The app supports task prioritization, due dates, and a simple drag-and-drop interface for reordering tasks.",
-    image: ToDoList,
-    tags: ["React", "Javascript"],
-    github: "https://github.com/primcaballeda/list_todo",
-    category: "Web App",
-  },
-  {
-    id: 6,
-    title: "OmniFlux: Expense Tracker",
-    description:
-      "A simple expense tracker that allows users to track their expenses and income. It includes features for adding, and editing transactions. The app also provides monthly summaries and visualizations.",
-    image: OmniFlux,
-    tags: ["Java", "MYSQL"],
-    github: "https://github.com/primcaballeda/ExpenseTracker",
-    category: "Desktop App",
-  },
-  {
-    id: 7,
-    title: "VittleVault: A Food Recipe App",
-    description:
-      "A food recipe app that allows users to search for recipes, save favorites, and share their own recipes. It features a user-friendly interface, ingredient-based search, and the ability to rate and comment on recipes.",
-    image: VittleVault,
-    tags: ["PHP", "CSS"],
-    github: "https://github.com/famiramei/gobble",
-    category: "Web App",
-  },
-  {
-    id: 8,
-    title: "Transpove - Transportation App",
-    description:
-      "A transportation app that allows users to book rides, track drivers, and manage their trips. The prototype demonstrates a seamless booking flow and real-time driver tracking using Figma's interactive features.",
-    image: Transpove,
-    tags: ["Figma"],
-    github: "https://www.figma.com/proto/rN04Gch9WyuFwcbT24ru2B/Transpove-Prototype?node-id=1-4&p=f&t=QkEF9PssmEEQp6Hj-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A4&show-proto-sidebar=1",
-    category: "UI/UX",
-  },
-  
+	{
+		id: 1,
+		title: "Readify: A Book Review App",
+		description:
+			"An app where users can review books, leave ratings, and favorite titles. It showcases integration with Firebase and demonstrates good use of asynchronous data fetching in Flutter. The app also features user authentication and a responsive UI for both Android and iOS.",
+		image: Readify,
+		tags: ["Dart", "Flutter", "Firebase"],
+		github: "https://github.com/primcaballeda/readify",
+		category: "Mobile App",
+	},
+	{
+		id: 2,
+		title: "Fitness Tracking App",
+		description:
+			"A mobile fitness app that supports personalized workout plans, weight tracking, and progress monitoring. Backend is handled by a Flask API with MySQL (XAMPP). Users can log daily activities, set fitness goals, and visualize progress through interactive charts.",
+		image: FitApp,
+		tags: ["Python", "ReactNative", "MYSQL (via XAMPP)"],
+		github: "https://github.com/primcaballeda/FitApp",
+		category: "Mobile App",
+	},
+	{
+		id: 3,
+		title: "Rent.S - A Rental Management System",
+		description:
+			"A CRUD (Create, Read, Update, and Delete) system built to help property managers or landlords manage tenants, units, and rental payments. The system includes automated reminders for due payments and a dashboard for analytics.",
+		image: RentS,
+		tags: ["TypeScript", "Supabase"],
+		github: "https://github.com/primcaballeda/Rent.S",
+		category: "Web App",
+	},
+	{
+		id: 4,
+		title: "Pokedex",
+		description:
+			"A simple Pokedex app that fetches data from the PokeAPI and displays information about various Pokémon. It demonstrates API integration and basic UI design using JavaScript and CSS.",
+		image: Pokedex,
+		tags: ["JavaScript", "API Integration", "CSS"],
+		github: "https://github.com/primcaballeda/pokedex-prim",
+		category: "Web App",
+	},
+	{
+		id: "5",
+		title: "To-Do List App",
+		description:
+			"A Basic To-Do List App where users can add, edit, and delete tasks. The app supports task prioritization, due dates, and a simple drag-and-drop interface for reordering tasks.",
+		image: ToDoList,
+		tags: ["React", "Javascript"],
+		github: "https://github.com/primcaballeda/list_todo",
+		category: "Web App",
+	},
+	{
+		id: 6,
+		title: "OmniFlux: Expense Tracker",
+		description:
+			"A simple expense tracker that allows users to track their expenses and income. It includes features for adding, and editing transactions. The app also provides monthly summaries and visualizations.",
+		image: OmniFlux,
+		tags: ["Java", "MYSQL"],
+		github: "https://github.com/primcaballeda/ExpenseTracker",
+		category: "Desktop App",
+	},
+	{
+		id: 7,
+		title: "VittleVault: A Food Recipe App",
+		description:
+			"A food recipe app that allows users to search for recipes, save favorites, and share their own recipes. It features a user-friendly interface, ingredient-based search, and the ability to rate and comment on recipes.",
+		image: VittleVault,
+		tags: ["PHP", "CSS"],
+		github: "https://github.com/famiramei/gobble",
+		category: "Web App",
+	},
+	{
+		id: 8,
+		title: "Transpove - Transportation App",
+		description:
+			"A transportation app that allows users to book rides, track drivers, and manage their trips. The prototype demonstrates a seamless booking flow and real-time driver tracking using Figma's interactive features.",
+		image: Transpove,
+		tags: ["Figma"],
+		github: "https://www.figma.com/proto/rN04Gch9WyuFwcbT24ru2B/Transpove-Prototype?node-id=1-4&p=f&t=QkEF9PssmEEQp6Hj-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A4&show-proto-sidebar=1",
+		category: "UI/UX",
+	},
 ]
 
 const Projects = () => {
@@ -174,7 +173,7 @@ const Projects = () => {
 
 									<div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 										<a
-											href="https://your-link.com"
+											href={project.github}
 											className="bg-white text-black px-4 py-2 rounded-md flex items-center"
 											target="_blank"
 											rel="noopener noreferrer"
