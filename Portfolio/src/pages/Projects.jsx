@@ -18,7 +18,7 @@ const projects = [
 		id: 1,
 		title: "Readify: A Book Review App",
 		description:
-			"An app where users can review books, leave ratings, and favorite titles. It features user authentication for Android, sleek UI, and push notifications. The app integrates with Firebase for backend services, uses asynchronous data fetching in Flutter, and retrieves book information and details through an external API.",
+			"An app where users can review books, leave ratings, and favorite titles. The app integrates with Firebase for backend services, uses asynchronous data fetching in Flutter, and retrieves book information and details through an external API.",
 		image: Readify,
 		tags: ["Dart", "Flutter", "Firebase"],
 		github: "https://github.com/primcaballeda/readify",
