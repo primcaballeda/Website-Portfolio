@@ -57,7 +57,7 @@ const Home = () => {
       >
         <h2 className="text-2xl font-bold mb-8">Tech Stack</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          {["React", "JavaScript", "Java","Tailwind CSS","Supabase", "Firebase", "MySQL","Dart","React Native", "HTML and CSS", "Node.js", "TypeScript", "PHP", "Python", "Git", "Figma"].map((skill) => (
+          {["React", "JavaScript", "Java","Tailwind CSS","Supabase", "Firebase", "MySQL","Dart","React Native", "HTML and CSS", "TypeScript", "PHP", "Python", "Git", "Figma"].map((skill) => (
             <motion.div
               key={skill}
               className="bg-gray-100 p-4 rounded-lg text-center"
